@@ -1,0 +1,12 @@
+body {background: #8e9eab;  
+background: linear-gradient(to right,#8e9eab, #eef2f3);margin-left:auto;margin-right:auto;width:100%;}
+nav {margin-left:auto;margin-right:auto;width:30%;}
+h1 {color:#ffffff;background-color:#000080;padding:15px;}
+nav li {float:left;margin-right:100px;}
+nav ul {list-style:none;}
+nav li a {align:center;text-decoration:none;font-size:1.5em;text-align:center;color:#000000;}
+a:hover {color:#ffffff;}
+footer {color:#ffffff;background-color:#000080;text-align:center;font-size:1.5em;padding:10px;}
+* {box-sizing:border-box;}
+header {overflow:auto;}
+a.active {color:#ffffff;}
