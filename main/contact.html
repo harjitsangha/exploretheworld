@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Us</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../css/contact.css">
+<link rel="icon"
+ type="image/ico"
+href="../favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["emailAddress"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+}
+</script>
+</head>
+<body>
+<div id="wrapper">
+<div>
+<map name="social" id="social">
+<area href="https://www.facebook.com" target="_blank" shape="poly" coords="2,1,48,0,48,37,4,39" alt="Facebook" title="Facebook">
+<area href="https://www.twitter.com" target="_blank" shape="poly" coords="57,2,101,2,101,38,57,39" alt="Twitter" title="Twitter">
+<area href="https://www.instagram.com" target="_blank" shape="poly" coords="111,1,157,0,157,39,111,38" alt="Instagram" title="Instagram">
+<area href="https://www.pinterest.com" target="_blank" shape="poly" coords="165,1,211,2,211,38,165,39" alt="Pinterest" title="Pinterest">
+<area href="https://www.google.com" target="_blank" shape="poly" coords="221,0,265,2,266,36,223,37" alt="Google" title="Google">
+</map>
+<img src="../pictures/social.png" alt="Social Media" usemap="#social" class="location">
+</div>
+<br>
+<br>
+<header>
+<h1>Spartan Group</h1>
+</header>
+<br>
+<nav>
+<ul>
+  <li><a href="../index.html">Home</a></li>
+  <li><a href="globe.html">Globe</a></li>
+  <li><a href="contact.html" class="active">Contact</a></li>
+</ul>
+</nav>
+<br>
+<main>
+<div class="contact">
+<h2>Contact Us</h2>
+<form name="myForm" method="post"
+ action="http://webdevbasics.net/scripts/demo.php"
+ onsubmit="return validateForm();">
+<label for="firstName">First Name</label>
+<input type="text" id="firstName" name="firstName" placeholder="Your first name" required>
+<label for="lastName">Last Name</label>
+<input type="text" id="lastName" name="lastName" placeholder="Your last name" required>
+<label for="emailAddress">Email Address</label>
+<input type="text" id="emailAddress" name="emailAddress" placeholder="Your email address" required>
+<label for="country">Country</label>
+<select id="country" name="country" required>
+<option value=""></option>
+<option value="america">America</option>
+<option value="argentina">Argentina</option>
+<option value="australia">Australia</option>
+<option value="brazil">Brazil</option>
+<option value="canada">Canada</option>
+<option value="china">China</option>
+<option value="denmark">Denmark</option>
+<option value="france">France</option>
+<option value="germany">Germany</option>
+<option value="hong kong">Hong Kong</option>
+<option value="india">India</option>
+<option value="ireland">Ireland</option>
+<option value="italy">Italy</option>
+<option value="japan">Japan</option>
+<option value="mexico">Mexico</option>
+<option value="nepal">Nepal</option>
+<option value="new zealand">New Zealand</option>
+<option value="north korea">North Korea</option>
+<option value="russia">Russia</option>
+<option value="singapore">Singapore</option>
+<option value="saudi arabia">Saudi Arabia</option>
+<option value="south korea">South Korea</option>
+<option value="spain">Spain</option>
+<option value="sri lanka">Sri Lanka</option>
+<option value="switzerland">Switzerland</option>
+<option value="united arab emirates">United Arab Emirates</option>
+<option value="united kingdom">United Kingdom</option>
+</select>
+<label for="upload">If you have any new image of any continent of the world, you can upload that image here:</label>
+<input type="file" name="picture" accept="image/*"><br>
+<label for="comments">Comments:</label>
+<textarea id="comment" name="comment" placeholder="Write something.." style="height:150px" required></textarea>
+<input type="submit" value="Submit">
+</form>
+</div>
+<aside>
+<p>Group members:<br><br> 1. Aranjot Singh Malhi <br> 2. Harjit Singh Sangha</p>
+<img src="../pictures/contact.jpg" alt="Contact Us">
+</aside>
+</main>
+<footer>
+&copy; Proudly created by the SPARTAN GROUP.
+</footer>
+</div>
+</body>
+</html>
