@@ -97,7 +97,7 @@ border:none;
 .hide {display:none;border:none;}
 ul {margin-top:100px;border:none;background-color:#ffffff;}
 li {float:none;width:auto;border:none;padding:5px;}
-li a {padding:10px;border:1px solid #000000;}
+li a {padding:10px;border:1px solid #000000;color:#000000;}
 li a:hover {background-color:#222233;color:#ffffff;}
 .leftflow {float:none; border:1px solid #D4AF37;clear:left;}
 .rightflow {float:none; border:1px solid #D4AF37;clear:left;}
