@@ -9,7 +9,6 @@ body {background-image:url(../pictures/home.jpg);background-repeat:no-repeat;bac
 header{position:absolute;top:50%;left:50%;}
 nav ul {list-style:none;}
 nav li {padding-top:20px;padding-bottom:20px;}
-nav li a {text-decoration:none;font-size:2.0em;color:#006400;}
-a.active {color:#ffffff;}
+nav li a {text-decoration:none;font-size:2.0em;color:red;}
+a.active {color:#000000;}
 nav a:hover {color:#ffffff;transition:1s color linear;}
-a:hover {color:#ffffff;background-color:#808080;transition:1s color linear;}
