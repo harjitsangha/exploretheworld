@@ -6,11 +6,10 @@ body {background-image:url(../pictures/home.jpg);background-repeat:no-repeat;bac
   position: absolute;
   top: 0px;
   left: 0px;}
-nav {width:100%;margin-top:20px;height:150px;}
+header{position:absolute;top:50%;left:50%;}
 nav ul {list-style:none;}
-nav li {padding-left:50px;padding-right:50px;padding-top:20px;padding-bottom:20px;}
+nav li {padding-top:20px;padding-bottom:20px;}
 nav li a {text-decoration:none;font-size:2.0em;color:#006400;}
 a.active {color:#ffffff;}
 nav a:hover {color:#ffffff;transition:1s color linear;}
-#navi {font-size:3em;text-decoration:none;border:1px solid #000000;border-radius:80px;padding:20px 100px 20px 100px;color:#006400;}
-span a:hover {color:#ffffff;background-color:#808080;transition:1s color linear;}
+a:hover {color:#ffffff;background-color:#808080;transition:1s color linear;}
