@@ -95,6 +95,7 @@ border:none;
 }
 @media only screen and (max-width: 768px) {
 .hide {display:none;border:none;}
+    #social {display:none;}
 h1 {padding:0px;font-size: 2.2em;}
 ul {margin-top:100px;border:none;background-color:#ffffff;}
 li {float:none;width:auto;border:none;padding:5px;}
