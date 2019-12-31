@@ -1,12 +1,12 @@
 * {box-sizing:border-box;}
-body {background-color:lightblue;color:#000000;font-familt:"Times New Roman", Times, serif;}
+body {background-color:#ffffff;font-familt:"Times New Roman", Times, serif;}
 #wrapper {width:70%;margin-left:auto;margin-right:auto;margin-top:20px;overflow:auto;}
-h1 {background-color:#d3d3d3;border-left:6px solid #191970;text-align:center;border-right:6px solid #191970;padding:20px;}
+h1 {background-color:#ffffff;text-align:center;padding:20px;}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: auto;
 }
 
 li {
@@ -16,7 +16,7 @@ li {
 
 li a {
     display: block;
-    color:#ffffff;
+    color:#000000;
     text-align: center;
     padding-bottom:10px;
     padding-top:10px;
@@ -29,7 +29,7 @@ li a:hover {
     transition:color 1s linear;
 }
 a.active {color:#191970;}
-footer {background-color:#000000;color:#ffffff;text-align:center;padding:10px;clear:both;font-size:1.5em;}
+footer {background-color:#ffffff;color:#000000;text-align:center;padding:10px;clear:both;font-size:1.5em;}
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -56,22 +56,22 @@ input[type=submit]:hover {
 
 .contact {
 border-style: outset;
-background-color: #f2f2f2;
+background-color: #ffffff;
 padding: 20px;
 width:50%;
 float:left;
 }
-aside {float:right;width:45%;background-color:#f2f2f2;font-size:1.1em;padding:30px;border-style:outset;}
+aside {float:right;width:45%;background-color:#ffffff;font-size:1.1em;padding:30px;border-style:outset;overflow:auto;}
 main {height:750px;}
 .location {position:fixed;}
 @media only screen and (max-width: 1024px) {
-#wrapper {width:auto;min-width:0;margin:0.5em;overflow:none;}
+#wrapper {width:auto;min-width:0;margin:0.5em;}
 .location {position:relative;}
 main {height:1450px;}
 .contact {width:auto;}
 aside  {width:auto;}
 }
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 768px) {
 li {float:none;width:auto;}
 aside {float:none;width:auto;}
 .contact {width:auto;}
