@@ -9,5 +9,5 @@ header{position:absolute;top:5%;left:35%;}
 nav ul {list-style:none;}
 nav li {padding-top:20px;padding-bottom:20px;}
 nav li a {text-decoration:none;font-size:2.0em;color:#ffffff;}
-a.active {color:#000000;}
+a.active {color:#000000;text-decoration: underline;}
 nav a:hover {color:#ffffff;transition:1s color linear;}
