@@ -58,6 +58,7 @@ table {float:none;width:auto;}
 }
 @media only screen and (max-width: 768px) {
 .hide {display:none;border:none;}
+    h1 {font-size:2.2em;}
 ul {margin-top:100px;border:none;background-image:url("../pictures/background3.jpg");}
 li {float:none;width:auto;border:none;padding:5px;}
 li a {padding:10px;border:1px solid #000000;}
