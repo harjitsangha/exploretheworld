@@ -192,9 +192,43 @@ imageAnimation { 0% {
 
 @media only screen and (max-width: 1024px) {
 
+  .title {
+    width:1000px;
+    height:80px;
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #ffffff;
+      color: black;
+      font-size: 3em;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+  }
+
 
 }
 
 @media only screen and (max-width: 768px) {
+
+  .title {
+    width:1000px;
+    height:80px;
+      position: absolute;
+      top: 5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #ffffff;
+      color: black;
+      font-size: 3em;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+  }
 
 }
